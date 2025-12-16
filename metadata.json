@@ -1,0 +1,7 @@
+{
+  "name": "Anam AI Persona Viewer",
+  "description": "A responsive and immersive interface for interacting with your ANAM AI digital persona.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
