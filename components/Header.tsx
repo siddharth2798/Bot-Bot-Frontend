@@ -18,7 +18,6 @@ export const Header: React.FC = () => {
         </div>
 
         <nav className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-400">
-            <a href="#" className="text-white">Live</a>
             <a href="https://mlh.link/OSH" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Schedule</a>
             <a href="https://discord.mlh.io" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Discord</a>
             <a href="https://mlh.link/OSHDevpost" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Devpost</a>
@@ -30,9 +29,6 @@ export const Header: React.FC = () => {
              <div className="w-2 h-2 rounded-full bg-mlh-red animate-pulse"></div>
              <span className="text-xs font-bold text-gray-200">LIVE NOW</span>
         </div>
-        <button className="bg-mlh-yellow text-mlh-dark font-bold text-sm px-4 py-2 rounded-full hover:bg-yellow-400 transition-colors">
-            Log In
-        </button>
       </div>
     </header>
   );
